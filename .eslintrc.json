@@ -16,7 +16,10 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
+    // "no-const-assign": "warn",
+    // "no-this-before-super": "warn",
     "prettier/prettier": "error",
+    "class-methods-use-this": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
