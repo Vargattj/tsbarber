@@ -14,10 +14,12 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     // "no-const-assign": "warn",
     // "no-this-before-super": "warn",
+    "camelcase": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "import/extensions": [
