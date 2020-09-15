@@ -1,5 +1,5 @@
 import { parseISO } from 'date-fns';
-import { Request, Router } from 'express';
+import { Router } from 'express';
 import { getCustomRepository } from 'typeorm';
 
 import AppointmentsRepository from '../repositories/AppointmentsRepository';
